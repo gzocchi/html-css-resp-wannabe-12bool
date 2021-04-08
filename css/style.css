@@ -22,7 +22,7 @@ section .images {
   margin-top: 20px;
 }
 img {
-  max-height: 150px;
+  height: 150px;
 }
 /* lezioni */
 
@@ -51,7 +51,13 @@ img {
   img {
     max-height: 115px;
   }
+  #steps {
+    background-color: #f2f2cd;
+  }
 }
 /* media LG */
 @media screen and (min-width: 992px) {
+  #steps {
+    background-color: #f9f9f9;
+  }
 }
