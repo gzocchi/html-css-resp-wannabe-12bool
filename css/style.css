@@ -18,7 +18,7 @@ section .text > h3 {
   padding: 0 3%;
 }
 
-section .images {
+section img {
   margin-top: 20px;
 }
 img {
@@ -29,13 +29,11 @@ img {
 /* steps */
 
 /* why */
-#why .images {
-  margin-top: 50px;
-}
-#why .images > img {
+#why img {
   background-color: #428bca;
   border-radius: 50%;
   padding: 20px;
+  margin-top: 50px;
 }
 
 hr {
@@ -58,7 +56,7 @@ hr {
     background-color: #f2f2cd;
   }
 
-  #why .images {
+  #why img {
     margin-top: 20px;
   }
 
